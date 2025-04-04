@@ -1,0 +1,129 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    background-color: purple;
+}
+wrapper {
+    display: block;
+  width: 1024px;
+  margin: auto;
+background-color:white;
+}
+div {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	visibility: hidden;
+}
+header{
+    background-color: white;
+  height: 100px;
+  text-align: center;
+}
+nav {
+    background-color: purple;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+ul a li {
+    padding: 8px 16px;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: "Copperplate Bold", Copperplate, "Copperplate Light";
+	color: white;
+}
+.orange {
+	background-color: #FF5700;   
+}
+.yellow {
+    background-color: hsla(57,87%,75%,1.00);
+}
+ul a li:hover {
+    background-color:white;
+    color: purple;
+}
+.pink {
+	background-color: #F828B6;  
+}
+nav{color:hsla(265,77%,72%,1.00)}
+section{
+  width: 500px;
+  height: 400px;
+  display: inline-block;
+	
+}
+button{
+    width: 50px;
+  margin: 20px;
+  border-radius: 25px;
+  height: 50px;
+  border-width: 5px;
+  border-style:thick purple;
+
+}
+button:hover{ border-color:purple;}
+.photos{position:relative;}
+footer{
+    text-align: center;
+    background-color:white;
+}
+.photos{ 
+width: 500px;
+  height: 400px;
+  display: inline-block;}
+
+.photos img {
+  position: absolute;
+  margin-left: -200px;
+}
+element {
+  visibility: visible;
+}
+.description {
+	margin-left: 448px;
+}
+.apperal{ position: absolute}
+
+wrapper header img {
+	margin-top: -9px;
+}
+.button2{
+    width: 50px;
+    height: 45px;
+    border-width: 3px;
+    border-style: thick purple;
+    border-radius: 1px;
+}
+.button2:hover{color:purple;}
+.button3{
+    width: 200px;
+    height: 50px;
+    border-width: 1px;
+    border-style: thick purple;
+    border-radius: 1px;
+    background-color: hsla(0,0%,0%,1.00);
+    color: White;
+    margin-left: 600px;
+}
+.button3:hover{color:purple;}
+.a{
+    display: inline-block;
+	margin:20px;
+}
+h2{
+    font-family: "Copperplate Bold", Copperplate, "Copperplate Light";
+    font-style: normal;
+    font-weight: bold;
+}
+h1{
+    font-family: "Copperplate Bold", Copperplate, "Copperplate Bold";
+    font-style: italic;
+    font-weight: bolder;
+}
+p{
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
